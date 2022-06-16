@@ -1,4 +1,4 @@
-header {
+/* header {
     background-color: var(--dark-cyan);
     margin-bottom: 100px;
   }
@@ -21,10 +21,39 @@ header {
   }
   nav ul li a:hover {
     color: tomato;
-  }
+  } */
   /* --- Header end---*/
 
+  
+  .box {
+    width: 100px;
+    height: 100px;
+    background: var(--dark-cyan);
+    border: solid 2px;
+  }
   .wrapper {
     display: grid;
-    grid-template-rows:;
+    grid-template-rows: 0.4fr 0.6fr;
+    width: 80vw;
+    margin: 20px auto;
+    border: solid red;
   }
+  .row-1 {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    border: solid brown;
+  }
+  .row-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    border: solid brown;
+  }
+  .sub-row {
+    display: grid;
+    grid-template-rows: 1.2fr 0.8fr;
+  }
+ .a {
+    background: yellow;
+ }
+
+  
