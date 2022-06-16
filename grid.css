@@ -1,4 +1,4 @@
-/* header {
+header {
     background-color: var(--dark-cyan);
     margin-bottom: 100px;
   }
@@ -21,39 +21,54 @@
   }
   nav ul li a:hover {
     color: tomato;
-  } */
-  /* --- Header end---*/
+  } 
+  /* --- Header end--- */
 
-  
+  body{
+    background: black;
+  }
   .box {
-    width: 100px;
-    height: 100px;
+    /* width: 100px; */
+    padding: 40px;
     background: var(--dark-cyan);
-    border: solid 2px;
   }
   .wrapper {
     display: grid;
-    grid-template-rows: 0.4fr 0.6fr;
+    grid-template-rows: 1fr 1.2fr;
+    grid-gap: 10px;
     width: 80vw;
     margin: 20px auto;
-    border: solid red;
+
   }
   .row-1 {
     display: grid;
     grid-template-columns: 2fr 1fr;
-    border: solid brown;
+    grid-gap: 10px;
   }
   .row-2 {
     display: grid;
-    grid-template-columns: 1fr 1fr;
-    border: solid brown;
+    grid-gap: 10px;
+    grid-template-columns: 1fr 1.2fr;
   }
   .sub-row {
     display: grid;
-    grid-template-rows: 1.2fr 0.8fr;
+    grid-template-rows: 0.8fr 1.2fr;
+    grid-gap: 10px;
   }
- .a {
-    background: yellow;
- }
+  .a {
+    background: brown;
+  }
+  .b {
+    background: orange; 
+  }
+  .c {
+    background: green;
+  }
+  .d {
+    background: skyblue;
+  }
+  .e {
+    background: skyblue;
+  }
 
   
