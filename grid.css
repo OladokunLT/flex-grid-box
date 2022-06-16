@@ -1,0 +1,30 @@
+header {
+    background-color: var(--dark-cyan);
+    margin-bottom: 100px;
+  }
+  .nav-wrapper {
+    padding: 15px 10px;
+  }
+  header nav ul {
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+  }
+  header nav ul li {
+    margin-left: 10px;
+  }
+  
+  nav ul li a {
+    text-decoration: none;
+    color: white;
+    font-size: large;
+  }
+  nav ul li a:hover {
+    color: tomato;
+  }
+  /* --- Header end---*/
+
+  .wrapper {
+    display: grid;
+    grid-template-rows:;
+  }
