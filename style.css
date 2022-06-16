@@ -22,12 +22,13 @@
   }
   body{
     font-size: 15px;
+    font-family: 'Lexend Deca', sans-serif;
   }
   
   /* --- Header start---*/
   header {
-    background-color: blueviolet;
-    margin-bottom: 10px;
+    background-color: var(--dark-cyan);
+    margin-bottom: 100px;
   }
   .nav-wrapper {
     padding: 15px 10px;
@@ -54,7 +55,7 @@
 
   .container {
     width: 80vw;
-    margin: 0 auto;
+    margin: 20px auto;
     border-radius: 5px;
 
   }
@@ -62,9 +63,77 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    /* flex-wrap: wrap; */
+  }
+  @media (max-width:650px) {
+    .d-flex {
+      flex-direction: column;
+
+    }
+  }
+
+  .sedan, .suv, .luxury {
+    padding: 20px;
+  }
+  .sedan {
+    background: var(--bright-orange);
+  }
+  .suv {
+    background: var(--dark-cyan);
+  }
+  .luxury {
+    background: var(--Very-dark-cyan);
+  }
+  p {
+    color: var(--Transparent-white-paragraphs);
+    margin-bottom: 20px;
+  }
+  h1 {
+    color: var(--Very-light-gray);
+    font-family: 'Big Shoulders Display', cursive;
+    font-size: 30px;
+  }
+  figure, h1 {
+    margin-bottom: 20px;
+  }
+  .m-t {
+    margin-top: 50px;
   }
   button {
-    border: solid ;
     padding: 10px 20px;
     border-radius: 25px;
+    background: var(--Very-light-gray);
+    cursor: pointer;
+  }
+  #sedan-btn {
+    border: solid var(--Very-light-gray);
+    background-color: var(--Very-light-gray);
+    color: var(--bright-orange);
+  }
+  #sedan-btn:hover {
+    background-color: var(--bright-orange);
+    color: var(--Very-light-gray);
+    border: solid var(--Very-light-gray);
+  }
+
+  #suv-btn {
+    border: solid var(--Very-light-gray);
+    background-color: var(--Very-light-gray);
+    color: var(--dark-cyan);
+  }
+  #suv-btn:hover {
+    background-color: var(--dark-cyan);
+    color: var(--Very-light-gray);
+    border: solid var(--Very-light-gray);
+  }
+
+  #luxury-btn {
+    border: solid var(--Very-light-gray);
+    background-color: var(--Very-light-gray);
+    color: var(--Very-dark-cyan)
+  }
+  #luxury-btn:hover {
+    background-color: var(--very-dark-cyan);
+    color: var(--Very-light-gray);
+    border: solid var(--Very-light-gray);
   }
